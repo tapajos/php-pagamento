@@ -1,0 +1,15 @@
+Campos que devem ser enviados Via POST
+	Campos para Boleto: forma_pagamento, vencimento, valor, numdoc,sacado,cgccpfsac
+	Campos para Visa: forma_pagamento,cartao,valor,pedido,pedidoDescricao,numParcelas
+	Campos para Mastercard: forma_pagamento,cartao (MASTERCARD OU DINERS),valor,pedido,numParcelas,juros
+
+Significado do campo juros
+	Juros = 0 --> sem juros 
+	Juros = 1 --> com juros para o mastercard e juros do lojista para o visa
+	Juros = 2 --> sem valor para o mastercard e juros da operadora para o visa
+
+
+5426-22-00-0527-5044
+validade 08/08
+Ana C C Iglesias
+codigo 254

@@ -1,0 +1,40 @@
+<form action="recebepagamento.php" method="post">
+	<INPUT TYPE='hidden' NAME='forma_pagamento' VALUE='boleto'>
+	<INPUT TYPE='hidden' NAME='vencimento' VALUE='17/12/2007'>
+	<INPUT TYPE='hidden' NAME='valor' VALUE='100,00'>
+	<INPUT TYPE='hidden' NAME='numdoc' VALUE='123456'>
+	<INPUT TYPE='hidden' NAME='sacado' VALUE='Pafuncio'>
+	<INPUT TYPE='hidden' NAME='cgccpfsac' VALUE='1234567'>
+	<INPUT type="submit" value="Enviar Boleto">
+</form>
+<form name="visa_3D" method="POST" action="recebepagamento.php">
+   <INPUT TYPE='hidden' NAME='forma_pagamento' VALUE='cartao'>
+   <INPUT TYPE='hidden' NAME='cartao' VALUE='VISA'>
+   <INPUT TYPE='hidden' NAME='valor' VALUE='001'>
+   <INPUT TYPE='hidden' NAME='pedido' VALUE='01'>
+   <INPUT TYPE='hidden' NAME='pedidoDescricao' VALUE='001'>
+   <INPUT TYPE='hidden' NAME='numParcelas' VALUE='01'>
+   <input type="submit" value="Enviar VISA">
+</form>
+<form name="Master_3D" method="POST" action="recebepagamento.php">
+   <INPUT TYPE='hidden' NAME='forma_pagamento' VALUE='cartao'>
+   <INPUT TYPE='hidden' NAME='cartao' VALUE='MASTERCARD'>
+   <INPUT TYPE='hidden' NAME='valor' VALUE='001'>
+   <INPUT TYPE='hidden' NAME='pedido' VALUE='01'>
+   <INPUT TYPE='hidden' NAME='numParcelas' VALUE='01'>
+   <INPUT TYPE='hidden' NAME='juros' VALUE='0'>
+   <input type="submit" value="Enviar Master">
+</form>
+<form name="Master_3D" method="POST" action="recebepagamento.php">
+   <INPUT TYPE='hidden' NAME='forma_pagamento' VALUE='cartao'>
+   <INPUT TYPE='hidden' NAME='cartao' VALUE='DINERS'>
+   <INPUT TYPE='hidden' NAME='valor' VALUE='10,00'>
+   <INPUT TYPE='hidden' NAME='pedido' VALUE='01'>
+   <INPUT TYPE='hidden' NAME='numParcelas' VALUE='01'>
+   <INPUT TYPE='hidden' NAME='juros' VALUE='0'>
+   <input type="submit" value="Enviar Diners">
+</form>
+
+  
+
+  
