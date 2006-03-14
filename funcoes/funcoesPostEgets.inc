@@ -1,5 +1,8 @@
 <?php
-
+/*
+ * variaveisViaPost -> Cria todas as variaveis via post
+ */
+ 
 function variaveisViaPost() {
 
 foreach ($_POST as $campo => $valor) {
@@ -7,6 +10,10 @@ foreach ($_POST as $campo => $valor) {
 }
 	
 }
+
+/*
+ * variaveisViaGet -> Cria todas as variaveis via get
+ */
 
 function variaveisViaGet() {
 
