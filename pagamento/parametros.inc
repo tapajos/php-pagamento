@@ -59,6 +59,6 @@ define ("AVS_REDECARD","");
 define ("TRANSORIGEM_AVISTA_REDECARD","04");
 define ("TRANSORIGEM_COM_JUROS_REDECARD","06");
 define ("TRANSORIGEM_SEM_JUROS_REDECARD","08");
-define ("URL_CONFIRMACAO_ENVIO_REDECARD","");
+define ("URL_CONFIRMACAO_ENVIO_REDECARD","http://ecommerce.redecard.com.br/pos_virtual/confirma.asp");
 
 ?>
