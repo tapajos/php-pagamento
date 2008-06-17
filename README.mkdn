@@ -1,0 +1,14 @@
+# Pagamento
+
+## O que é?
+
+Estrutura para e-commerce com Visa e Mastercard em PHP. Trata-se de um projeto muito antigo que resolvi tornar público para facilitar a vida de quem precisa implementar comercio eletrônico.
+
+Não sei se ainda funciona pois as operadoras podem ter mudado alguma coisa, mas serve como um ponto de partida.
+
+
+## AUTOR
+
+[Marcos Tapajós][t]
+
+[t]:http://www.improveit.com.br/en/company/tapajos

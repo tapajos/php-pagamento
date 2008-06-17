@@ -14,7 +14,7 @@ define ("FAX","");
 define ("LIB","lib/");
 
 //DADOS BOLETO
-define ("URL_BOLETO", "http://comercio.locaweb.com.br/boleto/boleto.comp");
+define ("URL_BOLETO", "");
 define ("AGENCIA_BOLETO", "");
 define ("CONTA_BOLETO", "");
 define ("BANCO_BOLETO", "");
@@ -29,9 +29,9 @@ define ("carteira","");
 define ("DiasdeVencimento", "");
 
 //DADOS VISANET
-define ("URL_VISA_CARTAO", "https://comercio.locaweb.com.br/visavbv/dados_visa_vbv.asp");
-define ("URL_CHECA_RETORNO_VISA_CARTAO","http://comercio.locaweb.com.br/visavbv/dados_visa_vbv.asp");
-define ("URLRETORNO_CARTAO_VISA","http://www.camaecafe.com.br/recibo_visanet.php");
+define ("URL_VISA_CARTAO", "");
+define ("URL_CHECA_RETORNO_VISA_CARTAO","");
+define ("URLRETORNO_CARTAO_VISA","");
 define ("MERCHID", "");
 define ("AUTHENTTYPE", "");
 define ("FREE", "");
@@ -43,7 +43,7 @@ define ("POSICAODADOSVISANET","0");
 
 
 //DADOS REDECARD
-define ("URL_MASTERCARD_CARTAO", "https://cartao.locaweb.com.br/comercio.comp");
+define ("URL_MASTERCARD_CARTAO", "");
 define ("MEIO_PAGAMENTO_SEGURO_REDECARD", "REDECARD");
 define ("METODO_REDECARD","SAFENET");
 define ("LOJA_REDECARD","");
@@ -53,8 +53,8 @@ define ("TRANSACAO_CUPOM_REDECARD","201");
 define ("BANDEIRA_REDECARD_CREDICARD","CREDICARD");
 define ("BANDEIRA_REDECARD_DINERS","DINERS");
 define ("POPUP_REDECARD","0");
-define ("URLBACK_REDECARD","http://www.camaecafe.com.br/recibo_redecard.php");
-define ("URLCUPOM_REDECARD","https://ecommerce.redecard.com.br/pos_virtual/cupom.asp");
+define ("URLBACK_REDECARD","");
+define ("URLCUPOM_REDECARD","");
 define ("AVS_REDECARD","");
 define ("TRANSORIGEM_AVISTA_REDECARD","04");
 define ("TRANSORIGEM_COM_JUROS_REDECARD","06");
